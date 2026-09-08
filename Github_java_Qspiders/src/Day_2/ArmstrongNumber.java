@@ -14,7 +14,7 @@ public class ArmstrongNumber {
 		int num = sc.nextInt();
 		int temp = num;
 		int sum = 0;
-		int count = 0;
+		int count = 0; // Here Count is used to know, how many digits are present in the number
 
 		while (temp != 0) {
 			count++;
